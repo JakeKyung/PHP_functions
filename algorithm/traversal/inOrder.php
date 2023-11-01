@@ -1,24 +1,27 @@
 <?php
 /**
  * Create by Jake 2023/03/13.
- * 중위순회
+ * 중위순회.
  */
-class Node {
+class Node
+{
     public $value;
     public $leftChild;
     public $rightChild;
 
-    public function __construct($value) {
+    public function __construct($value)
+    {
         $this->value = $value;
         $this->leftChild = null;
         $this->rightChild = null;
     }
 }
 
-function inOrderTraversal($root) {
+function inOrderTraversal($root)
+{
     if ($root != null) {
         inOrderTraversal($root->leftChild);
-        echo $root->value . " ";
+        echo $root->value.' ';
         inOrderTraversal($root->rightChild);
     }
 }

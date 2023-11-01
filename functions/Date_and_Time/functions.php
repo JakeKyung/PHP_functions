@@ -7,7 +7,7 @@
  * mktime (hr, min, sec, month, day, yr)
  * strftime (formatstring, timestamp)
  * strtotime (str)
- * time ()
+ * time ().
  */
 
 /** get unix time  : time() */
@@ -25,9 +25,9 @@ echo PHP_EOL;
 
 /** unix time to date : date()
  * date( format, timestamp )
- * date(string $format, ?int $timestamp = null): string
+ * date(string $format, ?int $timestamp = null): string.
  */
-$date = date("Y-m-d h:i:s", $timestamp);
+$date = date('Y-m-d h:i:s', $timestamp);
 echo $date;
 
 echo PHP_EOL;

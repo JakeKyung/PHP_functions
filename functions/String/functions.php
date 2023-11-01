@@ -13,5 +13,5 @@
  * strstr (str, needle)
  * strtolower (str)
  * strtoupper (str)
- * substr (string, start, len)
+ * substr (string, start, len).
  */

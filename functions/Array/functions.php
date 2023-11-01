@@ -12,10 +12,9 @@
  * array_search (needle, arr)
  * array_walk (arr, function)
  * count (count)
- * in_array (needle, haystack)
+ * in_array (needle, haystack).
  */
-
-$items = array(2,10,4,8,9);
+$items = [2, 10, 4, 8, 9];
 $sum = array_sum($items);
 // output : 2+10+4+8+9 = 33
 echo $sum;

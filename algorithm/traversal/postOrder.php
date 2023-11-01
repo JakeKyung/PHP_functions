@@ -1,25 +1,28 @@
 <?php
 /**
  * Create by Jake 2023/03/13.
- * 후위순회
+ * 후위순회.
  */
-class Node {
+class Node
+{
     public $value;
     public $leftChild;
     public $rightChild;
 
-    public function __construct($value) {
+    public function __construct($value)
+    {
         $this->value = $value;
         $this->leftChild = null;
         $this->rightChild = null;
     }
 }
 
-function postOrderTraversal($root) {
+function postOrderTraversal($root)
+{
     if ($root != null) {
         postOrderTraversal($root->leftChild);
         postOrderTraversal($root->rightChild);
-        echo $root->value . " ";
+        echo $root->value.' ';
     }
 }
 

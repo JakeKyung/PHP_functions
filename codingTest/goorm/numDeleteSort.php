@@ -1,9 +1,8 @@
 <?php
 /**
  * Create by Jake 2023/03/13.
- * 입력된 숫자에 중복제거, 정렬
+ * 입력된 숫자에 중복제거, 정렬.
  */
-
 $n = fgets(STDIN);
 $list = trim(fgets(STDIN));
 $list = explode(' ', $list);
@@ -30,6 +29,7 @@ function bsort($string)
             }
         }
     }
+
     return $array;
 }
 
@@ -38,9 +38,6 @@ $string = implode(' ', $list_unique);
 $result = bsort($string);
 $result = implode(' ', $result);
 echo $result;
-
-
-
 
 // 7
 // 1 1 3 3 3 2 2

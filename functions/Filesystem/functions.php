@@ -12,5 +12,5 @@
  * fopen (file, mode)
  * fread (handle, len)
  * fwrite (handle, str)
- * readfile (file)
+ * readfile (file).
  */

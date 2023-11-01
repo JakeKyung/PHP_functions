@@ -2,8 +2,6 @@
 /**
  * Create by Jake 2023/03/13.
  */
-
-
 function bubbleSort($array)
 {
     if (!$length = count($array)) {
@@ -18,9 +16,10 @@ function bubbleSort($array)
             }
         }
     }
+
     return $array;
 }
 
-$list = array(1,9,4,7,5);
+$list = [1, 9, 4, 7, 5];
 $list_sort = bubbleSort($list);
 print_r($list_sort);

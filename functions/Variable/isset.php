@@ -4,11 +4,12 @@
 * 변수에 값이 있는 경우 true
 * 변수가 선언되어 있지 않거나, null 인 경우 false
 */
-function issetCheck($s) {
-    if(isset($s)) {
-        echo "변수안에 값이 선언되어 있습니다.";
+function issetCheck($s)
+{
+    if (isset($s)) {
+        echo '변수안에 값이 선언되어 있습니다.';
     } else {
-        echo "변수가 null 이거나 선언되어 있지 않은 경우";
+        echo '변수가 null 이거나 선언되어 있지 않은 경우';
     }
 }
 
